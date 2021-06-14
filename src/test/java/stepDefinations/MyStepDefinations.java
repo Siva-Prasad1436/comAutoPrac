@@ -52,6 +52,7 @@ public class MyStepDefinations extends base {
 	public void verify_Login_Should_be_Successful() throws Throwable {
 		Portalpage P = new Portalpage(driver);
 		Assert.assertTrue(P.getCourse().isDisplayed());
+		System.out.println(P.getCourse());
 
 	}
 	 @And("^Close the browser Successfully$")
