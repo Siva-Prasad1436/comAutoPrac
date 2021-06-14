@@ -42,6 +42,7 @@ public class base {
 		
 		}
 		
+		System.out.println("Base Class");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		return driver;
